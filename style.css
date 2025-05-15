@@ -1,0 +1,208 @@
+body{
+    /*background-color: #262626;*/
+    background-color: #0D0D0D;
+    color: #D9D7CC;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    margin: 0 200px;
+}
+
+#main-header{
+    background-color: #0D0D0D;
+    height: 100;
+}
+
+#main-header .header{
+    padding: 25px 60px;
+    display: flex;
+    justify-items: flex-start;
+    font-size: 14px;
+}
+
+.header .title{
+    margin: 0;
+    font-weight: 600;
+}
+
+.header #navbar{
+    margin-left: auto;
+}
+
+#navbar .navbarlist{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar .navbarlist .page{
+    margin-left: 40px;
+    list-style: none;
+}
+
+#hero .container{
+    display: flex;
+    align-content: center;
+    justify-content: start;
+    padding: 20px 0;
+}
+
+#hero .container .herotext{
+    margin-left: 50px;
+}
+
+#hero .herotext .greetings{
+    color: #A5A69C;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#hero .herotext .role{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 2.5px;
+}
+
+#hero .herotext .motto{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#hero .herotext .summary{
+    margin-top: 15px;
+    font-size: 16px;
+    color: #A5A69C;
+    width: 450px;
+}
+
+#hero .container .heropic{
+    margin-left: auto;
+}
+
+#skills .container{
+    border-top: 1.5px #A5A69C solid;
+    border-bottom: 1.5px #A5A69C solid;
+    padding: 10px 50px;
+    padding-bottom: 30px;
+}
+
+#skills .container h2{
+    margin: 25px 0;
+    font-size: 40px;
+}
+
+#skills .container .skillboxes{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.skillboxes .skillbox{
+    width: 30%;
+    margin: 20px 5px;
+}
+
+.skillbox .skill{
+    margin: 0;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.skillbox .exp{
+    margin: 5px 0px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #A5A69C;
+}
+
+#projects .container{
+    border-bottom: 1.5px #A5A69C solid;
+    padding: 10px 50px;
+    padding-bottom: 30px;
+}
+
+#projects .container h2{
+    margin: 25px 0;
+    font-size: 40px;
+}
+
+#projects .container .projectcards{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.projectcards .card{
+    width: 45%;
+    margin: 15px 5px;
+}
+
+.card .projectimg{
+    width: 100%;
+}
+
+.card .projecttitle{
+    margin: 10px 0 0 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card .projectsum{
+    margin: 5px 0 0 0;
+    font-size: 16px;
+    color: #A5A69C;
+}
+
+#contact .container{
+    border-bottom: 1.5px #A5A69C solid;
+    padding: 10px 50px;
+    padding-bottom: 30px;
+}
+
+#contact .container h2{
+    margin: 25px 0;
+    font-size: 40px;
+}
+
+#contact .container .contactboxes{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.contactboxes .contactbox{
+    width: 30%;
+    margin: 15px 5px;
+}
+
+.contactbox .contactlogo{
+    width: 100%;
+}
+
+.contactbox .contactinfo{
+    font-size: 16px;
+    text-align: center;
+}
+
+#main-footer{
+    height: 100;
+    margin: 50px;
+    background-color: #0D0D0D;
+    color: #D9D7CC;
+    font-size: 14px;
+    text-align: center;
+}
+
