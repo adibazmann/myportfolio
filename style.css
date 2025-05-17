@@ -3,6 +3,7 @@ body{
     background-color: #0D0D0D;
     color: #D9D7CC;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
 }
 
 a{
@@ -17,6 +18,9 @@ a{
 #main-header{
     background-color: #0D0D0D;
     height: 100;
+    width: 100%;
+    position: sticky;
+    top: 0;
 }
 
 #main-header .header{
@@ -52,6 +56,7 @@ a{
     align-content: center;
     justify-content: start;
     padding: 20px 0;
+    margin-bottom: 100px;
 }
 
 #hero .container .herotext{
@@ -184,16 +189,30 @@ a{
 }
 
 .contactboxes .contactbox{
-    width: 30%;
+    height: 30%;
+    width: 330px;
     margin: 15px 5px;
+    display: flex;
+    align-items: center;
 }
 
-.contactbox .contactlogo{
+.contactbox .imgcontainer{
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    margin: 10px 0;
+    margin-right: 20px;
+    border-right: 2px #A5A69C solid;
+}
+
+.imgcontainer .contactlogo{
     width: 100%;
 }
 
 .contactbox .contactinfo{
+    height: 100%;
     font-size: 16px;
+    color: #A5A69C;
     text-align: center;
 }
 
